@@ -5,8 +5,8 @@ pool:
 steps:
 - task: Gradle@3
   inputs:
-    workingDirectory: ''
-    gradleWrapperFile: 'gradlew'
+    workingDirectory: 'DeepSpace'
+    gradleWrapperFile: 'DeepSpace/gradlew'
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
